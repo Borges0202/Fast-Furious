@@ -25,6 +25,18 @@ public class Produto {
     @NotNull
     private String categoria;
 
+    public Produto() {
+    }
+    
+
+    public Produto(String nome, Double preco, String categoria) {
+        this.nome = nome;
+        this.preco = preco;
+        this.categoria = categoria;
+    }
+    
+    
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -37,8 +49,8 @@ public class Produto {
         this.preco = preco;
     }
 
-    public void setCatogoria(String catogoria) {
-        this.categoria = catogoria;
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
     
     public Long getId() {
@@ -53,8 +65,8 @@ public class Produto {
         return preco;
     }
 
-    public String getCatogoria() {
+    public String getCategoria() {
         return categoria;
     }
-    
+   
 }
