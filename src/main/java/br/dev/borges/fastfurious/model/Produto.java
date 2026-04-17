@@ -1,5 +1,5 @@
 
-package com.fastfurious.fastfurious.model;
+package br.dev.borges.fastfurious.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
